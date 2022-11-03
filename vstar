@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-#vstar-reviews {
+.vstar-reviews {
     width: 65.8vw;
     margin: 0px auto
 }
 
-#vstar-reviews,
-#vstar-noreviews {
+.vstar-reviews,
+.vstar-noreviews {
     clear: both;
     text-align: start;
     border: none
@@ -118,24 +118,24 @@
 }
 
 @media only screen and (min-width:300px) and (max-width:768px) {
-    #reviews-wrapper {
+    .reviews-wrapper {
         padding-top: 10px
     }
 
-    #vstar-reviews {
+    .vstar-reviews {
         width: 100% !important;
         font-size: 12px;
         margin: 16px auto 32px
     }
 
-    #vstar-reviews #reviews-head {
+    .vstar-reviews .reviews-head {
         padding: 0 16px 82px;
         display: flex;
         flex-direction: column;
         align-items: center
     }
 
-    #vstar-reviews #reviews-head .head-left {
+    .vstar-reviews .reviews-head .head-left {
         text-align: left;
         padding: 1px;
         display: flex;
@@ -144,38 +144,38 @@
         margin-bottom: 20px
     }
 
-    #vstar-reviews #reviews-head .head-left .head-title {
+    .vstar-reviews .reviews-head .head-left .head-title {
         margin: 16px 0 48px;
         font-size: 20px
     }
 
-    #vstar-reviews #reviews-head .head-left .point {
+    .vstar-reviews .reviews-head .head-left .point {
         margin: 0 0 8px
     }
 
-    #vstar-reviews #reviews-head .head-left .star {
+    .vstar-reviews .reviews-head .head-left .star {
         margin-bottom: 8px
     }
 
-    #vstar-reviews #reviews-head .head-left .reviews-num {
+    .vstar-reviews .reviews-head .head-left .reviews-num {
         font-size: 14px;
         font-weight: 400
     }
 
-    #vstar-reviews #reviews-head .head-center {
+    .vstar-reviews .reviews-head .head-center {
         margin: 0
     }
 
-    #vstar-reviews #reviews-head .head-center .star-raw,
-    #vstar-reviews #reviews-head .head-center .star-num {
+    .vstar-reviews .reviews-head .head-center .star-raw,
+    .vstar-reviews .reviews-head .head-center .star-num {
         font-size: 14px
     }
 
-    #vstar-reviews #reviews-head .head-center .star-raw {
+    .vstar-reviews .reviews-head .head-center .star-raw {
         margin-bottom: 18px
     }
 
-    #vstar-reviews #reviews-head .head-center .star-range {
+    .vstar-reviews .reviews-head .head-center .star-range {
         display: inline-block;
         width: 42.5vw;
         min-width: 150px;
@@ -186,7 +186,7 @@
         background-color: rgba(0, 0, 0, 0.2)
     }
 
-    #vstar-reviews #reviews-head .head-button {
+    .vstar-reviews .reviews-head .head-button {
         height: 48px;
         line-height: 40px;
         position: absolute;
@@ -198,18 +198,18 @@
         padding: 0 5px
     }
 
-    #vstar-reviews #reviews-head .head-sort {
+    .vstar-reviews .reviews-head .head-sort {
         right: 8px;
         bottom: 20px;
         top: auto
     }
 
-    #vstar-reviews #reviews-head .head-sort .sort-content {
+    .vstar-reviews .reviews-head .head-sort .sort-content {
         width: 36px;
         height: 36px
     }
 
-    #vstar-reviews #reviews-head .head-power {
+    .vstar-reviews .reviews-head .head-power {
         position: absolute;
         top: 45px;
         left: 50%;
@@ -219,27 +219,27 @@
         line-height: 14px
     }
 
-    #vstar-reviews #reviews-head .head-power .head-power-icon {
+    .vstar-reviews .reviews-head .head-power .head-power-icon {
         width: 50px;
         margin: -5px 0 0 0
     }
 
-    #vstar-reviews #reviews-head .product-rating {
+    .vstar-reviews .reviews-head .product-rating {
         text-align: center
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 {
+    .vstar-reviews .reviews-head.review-head-type2 {
         padding: 0 0 100px;
         align-items: start
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-left {
+    .vstar-reviews .reviews-head.review-head-type2 .head-left {
         justify-content: start;
         flex-direction: row;
         margin: 30px 0 0 8px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-button {
+    .vstar-reviews .reviews-head.review-head-type2 .head-button {
         top: auto;
         bottom: 20px;
         left: 50%;
@@ -248,27 +248,27 @@
         height: 48px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-sort {
+    .vstar-reviews .reviews-head.review-head-type2 .head-sort {
         top: 30px;
         bottom: auto
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-sort .sort-content {
+    .vstar-reviews .reviews-head.review-head-type2 .head-sort .sort-content {
         width: 36px;
         height: 36px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-power {
+    .vstar-reviews .reviews-head.review-head-type2 .head-power {
         top: 70px;
         left: 8px;
         transform: translateX(0%)
     }
 
-    #vstar-reviews #reviews-body {
+    .vstar-reviews .reviews-body {
         padding: 0 8px
     }
 
-    #vstar-reviews #reviews-footer .footer-button {
+    .vstar-reviews .reviews-footer .footer-button {
         margin: 21px auto 21px;
         width: auto;
         min-width: 90px;
@@ -284,62 +284,62 @@
         align-items: center
     }
 
-    #vstar-reviews .list-review-body-item {
+    .vstar-reviews .list-review-body-item {
         position: relative;
         padding: 30px 0 !important
     }
 
-    #vstar-reviews .list-review-body-item .reviews-date {
+    .vstar-reviews .list-review-body-item .reviews-date {
         right: 0;
         font-size: 12px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head {
         position: relative
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .star {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .star {
         font-size: 0;
         margin-left: -5px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .star .star-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .star .star-item {
         margin-left: 4px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .review-star-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .review-star-item {
         margin-right: 0px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .user-name {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .user-name {
         width: 100px;
         font-weight: 500;
         font-size: 16px;
         vertical-align: middle
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .user-message {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .user-message {
         margin-top: 17px 0 27px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body {
         width: 100%
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text {
         width: 100%;
         word-wrap: break-word
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text .display-text {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text .display-text {
         opacity: .6
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .img-list {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .img-list {
         min-height: 20px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .img-list .img-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .img-list .img-item {
         width: 100px;
         height: 100px;
         margin: 8px 8px 0 0;
@@ -348,73 +348,73 @@
         background-color: black
     }
 
-    #vstar-reviews .grid-review-body-item {
+    .vstar-reviews .grid-review-body-item {
         width: 156px
     }
 
-    #vstar-reviews .grid-review-body-item .img-item {
+    .vstar-reviews .grid-review-body-item .img-item {
         width: 100%;
         display: block;
         border-radius: 8px 8px 0 0
     }
 
-    #vstar-reviews .grid-review-body-item .img-item img {
+    .vstar-reviews .grid-review-body-item .img-item img {
         width: 100%
     }
 
-    #vstar-reviews .grid-review-body-item .reviews-date {
+    .vstar-reviews .grid-review-body-item .reviews-date {
         margin: 0px 8px 0 0;
         vertical-align: middle;
         position: static
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .star {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .star {
         margin-left: -5px;
         font-size: 0
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .star-item {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .star-item {
         margin-left: 5px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .grid-mobile {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .grid-mobile {
         margin-top: 10px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .country-name {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .country-name {
         font-size: 16px;
         vertical-align: middle
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .grid-mobile {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .grid-mobile {
         margin-top: 10px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
         margin-bottom: 16px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text .display-text {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text .display-text {
         font-size: 14px
     }
 
-    #vstar-reviews.all-review #reviews-head {
+    .vstar-reviews.all-review .reviews-head {
         padding: 30px 0 10px;
         flex-direction: column;
         align-items: start
     }
 
-    #vstar-reviews.all-review #reviews-head .mix-review-title,
-    #vstar-reviews.all-review #reviews-head .mix-review-num {
+    .vstar-reviews.all-review .reviews-head .mix-review-title,
+    .vstar-reviews.all-review .reviews-head .mix-review-num {
         margin-left: 8px
     }
 
-    #vstar-reviews.all-review #reviews-head .mix-review-sort .head-sort {
+    .vstar-reviews.all-review .reviews-head .mix-review-sort .head-sort {
         right: 8px;
         bottom: 15px
     }
 
-    #vstar-noreviews {
+    .vstar-noreviews {
         display: flex;
         width: 303px;
         margin: 0 auto;
@@ -423,25 +423,25 @@
         align-items: center
     }
 
-    #vstar-noreviews .noreviews-title {
+    .vstar-noreviews .noreviews-title {
         font-weight: 600;
         font-size: 18px;
         line-height: 14px;
         margin-top: 24px
     }
 
-    #vstar-noreviews .noreviews-nostar {
+    .vstar-noreviews .noreviews-nostar {
         margin-top: 32px
     }
 
-    #vstar-noreviews .noreviews-text {
+    .vstar-noreviews .noreviews-text {
         font-size: 14px;
         line-height: 12px;
         margin-top: 12px;
         opacity: .6
     }
 
-    #vstar-noreviews .noreviews-button {
+    .vstar-noreviews .noreviews-button {
         min-width: 137px;
         width: auto;
         max-width: 300px;
@@ -454,11 +454,11 @@
         border-radius: 2px
     }
 
-    #vstar-noreviews .noreviews-button span {
+    .vstar-noreviews .noreviews-button span {
         font-size: 14px
     }
 
-    #add-review {
+    .add-review {
         position: fixed;
         top: 0;
         left: 0;
@@ -472,7 +472,7 @@
         overflow: scroll
     }
 
-    #add-review .window-head {
+    .add-review .window-head {
         position: relative;
         display: flex;
         width: 100%;
@@ -481,7 +481,7 @@
         margin-bottom: 32px
     }
 
-    #add-review .window-head .window-close {
+    .add-review .window-head .window-close {
         width: 25px;
         height: 25px;
         position: absolute;
@@ -491,7 +491,7 @@
         z-index: 2
     }
 
-    #add-review .window-head .head-title {
+    .add-review .window-head .head-title {
         font-weight: 500;
         margin-bottom: 16px;
         margin-top: 30px;
@@ -499,13 +499,13 @@
         line-height: 12px
     }
 
-    #add-review .window-head .text-desc {
+    .add-review .window-head .text-desc {
         font-size: 16px;
         line-height: 12px;
         color: #999999
     }
 
-    #add-review .window-product {
+    .add-review .window-product {
         width: 100%;
         display: flex;
         align-items: start;
@@ -513,21 +513,21 @@
         position: relative
     }
 
-    #add-review .window-product .product-image {
+    .add-review .window-product .product-image {
         width: 100px;
         height: 100px;
         background-size: 100% auto;
         margin-bottom: 16px
     }
 
-    #add-review .window-product .product-right {
+    .add-review .window-product .product-right {
         font-size: 14px;
         flex: 1;
         margin: 0px 0 0 8px;
         line-height: 18px
     }
 
-    #add-review .window-product .product-name {
+    .add-review .window-product .product-name {
         width: 100;
         font-size: 14px;
         line-height: 14px;
@@ -536,40 +536,40 @@
         font-weight: 600
     }
 
-    #add-review .window-product .icon-star,
-    #add-review .window-product .icon-nostar {
+    .add-review .window-product .icon-star,
+    .add-review .window-product .icon-nostar {
         cursor: pointer;
         display: inline-block;
         margin-left: 4px
     }
 
-    #add-review .window-product .icon-star::before,
-    #add-review .window-product .icon-nostar::before {
+    .add-review .window-product .icon-star::before,
+    .add-review .window-product .icon-nostar::before {
         font-size: 28px
     }
 
-    #add-review .window-product .review-star {
+    .add-review .window-product .review-star {
         position: absolute;
         left: 102px;
         bottom: 16px;
         margin-right: 4px
     }
 
-    #add-review .review-message {
+    .add-review .review-message {
         width: 100%;
         margin: 32px auto 0
     }
 
-    #add-review .review-message .inline {
+    .add-review .review-message .inline {
         display: inline-block;
         width: 100%
     }
 
-    #add-review .review-message .email-area {
+    .add-review .review-message .email-area {
         margin-top: 15px
     }
 
-    #add-review .review-message .label-name {
+    .add-review .review-message .label-name {
         font-weight: 500;
         font-size: 14px;
         color: #333333;
@@ -577,7 +577,7 @@
         margin-bottom: 8px
     }
 
-    #add-review .review-message .small-input {
+    .add-review .review-message .small-input {
         padding: 0 10px;
         width: calc(100% - 20px);
         height: 50px;
@@ -589,13 +589,13 @@
         color: #727272
     }
 
-    #add-review .review-message .review-area {
+    .add-review .review-message .review-area {
         width: 100%;
         margin: 15px 0 10px;
         font-size: 0
     }
 
-    #add-review .review-message .big-input {
+    .add-review .review-message .big-input {
         padding: 10px;
         width: calc(100% - 20px);
         height: 170px;
@@ -607,7 +607,7 @@
         line-height: 20px
     }
 
-    #add-review .review-message .upload-input {
+    .add-review .review-message .upload-input {
         position: absolute;
         top: 0;
         left: 0;
@@ -616,13 +616,13 @@
         cursor: pointer
     }
 
-    #add-review .review-message .form-image-list {
+    .add-review .review-message .form-image-list {
         width: 90vw;
         flex-wrap: wrap;
         display: flex
     }
 
-    #add-review .review-message .form-image-list .form-image-item {
+    .add-review .review-message .form-image-list .form-image-item {
         position: relative;
         width: 59px;
         height: 59px;
@@ -631,7 +631,7 @@
         background-size: 100% auto
     }
 
-    #add-review .review-message .form-image-list .form-image-item .image-delete {
+    .add-review .review-message .form-image-list .form-image-item .image-delete {
         position: absolute;
         top: -5px;
         right: -5px;
@@ -639,26 +639,26 @@
         height: 20px
     }
 
-    #add-review .review-message .upload-image-area {
+    .add-review .review-message .upload-image-area {
         margin-top: 10px;
         min-width: 61px;
         height: 61px;
         padding: 0 5px
     }
 
-    #add-review .review-message .image-hover::after {
+    .add-review .review-message .image-hover::after {
         content: '';
         width: 68px;
         height: 68px;
         background-color: rgba(0, 0, 0, 0.5)
     }
 
-    #add-review .review-message .upload-image-text {
+    .add-review .review-message .upload-image-text {
         font-size: 12px;
         height: 14px
     }
 
-    #add-review .review-message .form-submit {
+    .add-review .review-message .form-submit {
         text-align: center;
         width: 100%;
         height: 55px;
@@ -673,7 +673,7 @@
         font-size: 20px
     }
 
-    #add-review .text-num {
+    .add-review .text-num {
         position: absolute;
         right: 20px;
         top: 0px;
@@ -682,7 +682,7 @@
         color: #999999
     }
 
-    #success-window {
+    .success-window {
         width: 343px;
         height: 310px;
         color: black;
@@ -693,67 +693,67 @@
         background-color: white
     }
 
-    #vstar-window-review .window-close {
+    .vstar-window-review .window-close {
         right: 8px
     }
 
-    #vstar-window-review #vstar-reviews #reviews-head {
+    .vstar-window-review .vstar-reviews .reviews-head {
         position: sticky;
         top: 0;
         z-index: 10
     }
 
-    #vstar-window-review #reviews-head .head-sort .sort-content {
+    .vstar-window-review .reviews-head .head-sort .sort-content {
         width: 36px;
         height: 36px
     }
 
-    #vstar-window-review #reviews-head .mix-review-title {
+    .vstar-window-review .reviews-head .mix-review-title {
         margin: 0 0 0 8px
     }
 
-    #vstar-window-review #reviews-head .mix-review-sort .head-sort {
+    .vstar-window-review .reviews-head .mix-review-sort .head-sort {
         right: 45px;
         bottom: 20px
     }
 
-    #vstar-window-review #reviews-head.review-head-type2 .head-sort {
+    .vstar-window-review .reviews-head.review-head-type2 .head-sort {
         top: auto
     }
 }
 
 @media only screen and (min-width:769px) {
-    #reviews-wrapper {
+    .reviews-wrapper {
         margin: 0px auto
     }
 
-    #vstar-reviews {
+    .vstar-reviews {
         width: 100%;
         max-width: 1200px;
         padding: 0 40px
     }
 
-    #vstar-reviews #reviews-head {
+    .vstar-reviews .reviews-head {
         display: flex;
         justify-content: start;
         padding: 33px 0 33px
     }
 
-    #vstar-reviews #reviews-head .head-left {
+    .vstar-reviews .reviews-head .head-left {
         text-align: left;
         text-align: center
     }
 
-    #vstar-reviews #reviews-head .head-left .bigPoint {
+    .vstar-reviews .reviews-head .head-left .bigPoint {
         margin-bottom: 16px
     }
 
-    #vstar-reviews #reviews-head .head-left .star {
+    .vstar-reviews .reviews-head .head-left .star {
         margin-bottom: 16px;
         justify-content: center
     }
 
-    #vstar-reviews #reviews-head .head-left .head-title {
+    .vstar-reviews .reviews-head .head-left .head-title {
         line-height: 14px;
         font-size: 20px;
         white-space: nowrap;
@@ -761,29 +761,29 @@
         line-height: 28px
     }
 
-    #vstar-reviews #reviews-head .head-left .reviews-num {
+    .vstar-reviews .reviews-head .head-left .reviews-num {
         font-size: 14px;
         margin-left: 4px
     }
 
-    #vstar-reviews #reviews-head .head-left .point {
+    .vstar-reviews .reviews-head .head-left .point {
         margin-top: 38px;
         margin-left: 3px;
         height: 40px
     }
 
-    #vstar-reviews #reviews-head .head-center {
+    .vstar-reviews .reviews-head .head-center {
         position: absolute;
         bottom: 33px;
         left: 240px;
         min-width: 250px
     }
 
-    #vstar-reviews #reviews-head .head-center .star-raw {
+    .vstar-reviews .reviews-head .head-center .star-raw {
         margin-top: 8px
     }
 
-    #vstar-reviews #reviews-head .head-center .star-raw .star-range {
+    .vstar-reviews .reviews-head .head-center .star-raw .star-range {
         display: inline-block;
         width: 150px;
         height: 6px;
@@ -792,7 +792,7 @@
         background-color: rgba(0, 0, 0, 0.2)
     }
 
-    #vstar-reviews #reviews-head .head-power {
+    .vstar-reviews .reviews-head .head-power {
         position: absolute;
         bottom: 86px;
         color: #888888;
@@ -801,7 +801,7 @@
         line-height: 14px
     }
 
-    #vstar-reviews #reviews-head .head-button {
+    .vstar-reviews .reviews-head .head-button {
         min-width: 123px;
         width: auto;
         max-width: 300px;
@@ -813,26 +813,26 @@
         padding: 0 15px
     }
 
-    #vstar-reviews #reviews-head .head-sort {
+    .vstar-reviews .reviews-head .head-sort {
         right: 0;
         bottom: 33px;
         width: 36px;
         height: 36px
     }
 
-    #vstar-reviews #reviews-head .head-sort .sort-content {
+    .vstar-reviews .reviews-head .head-sort .sort-content {
         width: 36px;
         height: 36px
     }
 
-    #vstar-reviews #reviews-head .mix-review-title {
+    .vstar-reviews .reviews-head .mix-review-title {
         line-height: 14px;
         white-space: nowrap;
         margin: 0 8px 0 0;
         line-height: 28px
     }
 
-    #vstar-reviews #reviews-head .no-review-tip {
+    .vstar-reviews .reviews-head .no-review-tip {
         display: block;
         position: absolute;
         right: 38px;
@@ -842,101 +842,101 @@
         line-height: 28px
     }
 
-    #vstar-reviews #reviews-head .mix-review-num {
+    .vstar-reviews .reviews-head .mix-review-num {
         font-size: 20px;
         line-height: normal;
         margin-top: 3px
     }
 
-    #vstar-reviews #reviews-head .mix-review-sort .head-sort {
+    .vstar-reviews .reviews-head .mix-review-sort .head-sort {
         right: 0px;
         bottom: 30px
     }
 
-    #vstar-reviews #reviews-head .product-rating {
+    .vstar-reviews .reviews-head .product-rating {
         width: 120px;
         text-align: center
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 {
+    .vstar-reviews .reviews-head.review-head-type2 {
         padding: 40px 0 20px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-left {
+    .vstar-reviews .reviews-head.review-head-type2 .head-left {
         justify-content: center;
         margin-left: 0px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-button {
+    .vstar-reviews .reviews-head.review-head-type2 .head-button {
         top: auto;
         bottom: 20px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-power {
+    .vstar-reviews .reviews-head.review-head-type2 .head-power {
         right: 190px;
         bottom: 20px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .head-sort {
+    .vstar-reviews .reviews-head.review-head-type2 .head-sort {
         top: auto;
         bottom: 20px
     }
 
-    #vstar-reviews #reviews-head.review-head-type2 .product-rating {
+    .vstar-reviews .reviews-head.review-head-type2 .product-rating {
         display: flex;
         width: 100%;
         align-items: center
     }
 
-    #vstar-reviews .list-review-body-item {
+    .vstar-reviews .list-review-body-item {
         position: relative;
         width: 100%;
         padding: 30px 0px
     }
 
-    #vstar-reviews .list-review-body-item .reviews-date {
+    .vstar-reviews .list-review-body-item .reviews-date {
         right: 0;
         font-size: 12px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head {
         position: relative
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .star {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .star {
         font-size: 0;
         margin-bottom: 16px;
         margin-left: -5px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .star .star-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .star .star-item {
         font-size: 16px;
         margin-left: 5px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .review-star-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .review-star-item {
         margin-right: 0px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-head .user-message {
+    .vstar-reviews .list-review-body-item .list-review-body-item-head .user-message {
         font-size: 12px;
         margin-top: 17px 0 27px
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body {
         width: 100%
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .reviews-text {
         width: 100%;
         word-wrap: break-word
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .img-list {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .img-list {
         display: flex
     }
 
-    #vstar-reviews .list-review-body-item .list-review-body-item-body .img-list .img-item {
+    .vstar-reviews .list-review-body-item .list-review-body-item-body .img-list .img-item {
         width: 100px;
         height: 100px;
         margin: 0 8px 8px 0;
@@ -946,67 +946,67 @@
         justify-content: center
     }
 
-    #vstar-reviews .grid-review-body-item {
+    .vstar-reviews .grid-review-body-item {
         width: 239px;
         animation: recover 1s linear
     }
 
-    #vstar-reviews .grid-review-body-item .img-item {
+    .vstar-reviews .grid-review-body-item .img-item {
         width: 100%;
         display: block;
         border-radius: 8px 8px 0 0
     }
 
-    #vstar-reviews .grid-review-body-item .img-item img {
+    .vstar-reviews .grid-review-body-item .img-item img {
         width: 100%
     }
 
-    #vstar-reviews .grid-review-body-item .reviews-date {
+    .vstar-reviews .grid-review-body-item .reviews-date {
         top: -1px;
         right: 16px;
         position: absolute
     }
 
-    #vstar-reviews .grid-review-body-item .user-message {
+    .vstar-reviews .grid-review-body-item .user-message {
         margin: 16px 0
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head {
         position: relative
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .star {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .star {
         margin-left: -5px;
         font-size: 0
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .star-item {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .star-item {
         margin-left: 3px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .reviews-date {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-head .star .reviews-date {
         position: absolute
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
         font-size: 16px;
         margin-bottom: 16px
     }
 
-    #vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text .display-text {
+    .vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text .display-text {
         font-size: 14px
     }
 
-    #vstar-reviews #reviews-footer .page-control-item:hover {
+    .vstar-reviews .reviews-footer .page-control-item:hover {
         opacity: 1;
         border: 1px solid
     }
 
-    #vstar-reviews #reviews-footer .page-control-button:hover {
+    .vstar-reviews .reviews-footer .page-control-button:hover {
         background-color: #f3f3f3
     }
 
-    #vstar-reviews #reviews-footer .page-control-button:active {
+    .vstar-reviews .reviews-footer .page-control-button:active {
         background-color: #d2d2d2
     }
 
@@ -1014,14 +1014,14 @@
         width: 100%
     }
 
-    #vstar-noreviews {
+    .vstar-noreviews {
         max-width: 1040px;
         width: 100%;
         height: 160px;
         position: relative
     }
 
-    #vstar-noreviews .noreviews-title {
+    .vstar-noreviews .noreviews-title {
         font-weight: 600;
         position: absolute;
         right: 65%;
@@ -1031,7 +1031,7 @@
         font-weight: 700
     }
 
-    #vstar-noreviews .noreviews-center {
+    .vstar-noreviews .noreviews-center {
         min-width: 200px;
         text-align: center;
         height: 50px;
@@ -1043,23 +1043,23 @@
         margin: auto
     }
 
-    #vstar-noreviews .nostar-wrapper {
+    .vstar-noreviews .nostar-wrapper {
         height: 20px;
         margin: 0px 4px 11px 0px
     }
 
-    #vstar-noreviews .nostar-wrapper .noreviews-nostar {
+    .vstar-noreviews .nostar-wrapper .noreviews-nostar {
         justify-content: center;
         margin: 0px 4px 11px 0px
     }
 
-    #vstar-noreviews .noreviews-text {
+    .vstar-noreviews .noreviews-text {
         font-size: 14px;
         line-height: 12px;
         opacity: .6
     }
 
-    #vstar-noreviews .noreviews-button {
+    .vstar-noreviews .noreviews-button {
         min-width: 137px;
         width: auto;
         max-width: 300px;
@@ -1076,7 +1076,7 @@
         line-height: 12px
     }
 
-    #add-review {
+    .add-review {
         position: fixed;
         top: 50%;
         left: 50%;
@@ -1088,7 +1088,7 @@
         margin: 0 auto
     }
 
-    #add-review .window-head {
+    .add-review .window-head {
         display: flex;
         width: 100%;
         text-align: center;
@@ -1097,20 +1097,20 @@
         margin-bottom: 24px
     }
 
-    #add-review .window-head .head-title {
+    .add-review .window-head .head-title {
         font-size: 24px;
         font-weight: 500;
         margin: 24px auto 8px;
         line-height: 12px
     }
 
-    #add-review .window-head .text-desc {
+    .add-review .window-head .text-desc {
         font-size: 12px;
         line-height: 12px;
         color: #999999
     }
 
-    #add-review .window-product {
+    .add-review .window-product {
         width: 92%;
         margin: 0 auto 36px;
         display: flex;
@@ -1118,20 +1118,20 @@
         position: relative
     }
 
-    #add-review .window-product .product-image {
+    .add-review .window-product .product-image {
         width: 100px;
         height: 100px;
         background-size: 100% auto
     }
 
-    #add-review .window-product .product-right {
+    .add-review .window-product .product-right {
         font-size: 16px;
         flex: 1;
         line-height: 1.6;
         margin-left: 16px
     }
 
-    #add-review .window-product .product-name {
+    .add-review .window-product .product-name {
         font-size: 14px;
         line-height: 14px;
         color: #000000;
@@ -1139,7 +1139,7 @@
         font-weight: 600
     }
 
-    #add-review .window-product .review-star {
+    .add-review .window-product .review-star {
         position: absolute;
         left: 116px;
         bottom: 0px;
@@ -1148,43 +1148,43 @@
         margin-right: 4px
     }
 
-    #add-review .window-product .review-star .icon-star,
-    #add-review .window-product .review-star .icon-nostar {
+    .add-review .window-product .review-star .icon-star,
+    .add-review .window-product .review-star .icon-nostar {
         cursor: pointer;
         display: inline-block;
         margin-left: 1px
     }
 
-    #add-review .window-product .review-star .icon-star::before,
-    #add-review .window-product .review-star .icon-nostar::before {
+    .add-review .window-product .review-star .icon-star::before,
+    .add-review .window-product .review-star .icon-nostar::before {
         font-size: 18px
     }
 
-    #add-review .review-message {
+    .add-review .review-message {
         width: 576px;
         margin: 0 auto
     }
 
-    #add-review .review-message .inline {
+    .add-review .review-message .inline {
         display: inline-block;
         vertical-align: top;
         flex: 1;
         max-width: 280px
     }
 
-    #add-review .review-message .user-input {
+    .add-review .review-message .user-input {
         font-size: 14px;
         line-height: 14px
     }
 
-    #add-review .review-message .label-name {
+    .add-review .review-message .label-name {
         font-size: 14px;
         color: #333333;
         line-height: 14px;
         margin-bottom: 8px
     }
 
-    #add-review .review-message .small-input {
+    .add-review .review-message .small-input {
         padding-left: 10px;
         width: 100%;
         height: 35px;
@@ -1196,19 +1196,19 @@
         border-radius: 4px
     }
 
-    #add-review .review-message .reviews-window-form-smallInputArea {
+    .add-review .review-message .reviews-window-form-smallInputArea {
         display: flex;
         justify-content: space-between;
         margin-bottom: 16px
     }
 
-    #add-review .review-message .review-area {
+    .add-review .review-message .review-area {
         position: relative;
         font-size: 0;
         margin-bottom: 24px
     }
 
-    #add-review .review-message .big-input {
+    .add-review .review-message .big-input {
         padding: 10px;
         width: 100%;
         height: 100px;
@@ -1220,7 +1220,7 @@
         line-height: 18px
     }
 
-    #add-review .review-message .text-num {
+    .add-review .review-message .text-num {
         position: absolute;
         right: 20px;
         top: 7px;
@@ -1229,7 +1229,7 @@
         color: #999999
     }
 
-    #add-review .review-message .upload-input {
+    .add-review .review-message .upload-input {
         position: absolute;
         top: 0;
         left: 0;
@@ -1238,16 +1238,16 @@
         cursor: pointer
     }
 
-    #add-review .review-message .form-image-list {
+    .add-review .review-message .form-image-list {
         display: flex
     }
 
-    #add-review .review-message .form-image-list .upload-image-area {
+    .add-review .review-message .form-image-list .upload-image-area {
         width: 75px;
         height: 75px
     }
 
-    #add-review .review-message .form-image-list .form-image-item {
+    .add-review .review-message .form-image-list .form-image-item {
         width: 75px;
         height: 75px;
         margin-right: 8px;
@@ -1256,7 +1256,7 @@
         background-size: 100% auto
     }
 
-    #add-review .review-message .form-image-list .hover-image {
+    .add-review .review-message .form-image-list .hover-image {
         position: absolute;
         top: 0;
         bottom: 0;
@@ -1266,7 +1266,7 @@
         cursor: pointer
     }
 
-    #add-review .review-message .form-image-list .icon-delete {
+    .add-review .review-message .form-image-list .icon-delete {
         color: white;
         position: absolute;
         top: 50%;
@@ -1274,20 +1274,20 @@
         transform: translate(-50%, -50%)
     }
 
-    #add-review .review-message .form-image-list .image-hover::after {
+    .add-review .review-message .form-image-list .image-hover::after {
         content: '';
         width: 68px;
         height: 68px;
         background-color: rgba(0, 0, 0, 0.5)
     }
 
-    #add-review .review-message .form-image-list .upload-image-text {
+    .add-review .review-message .form-image-list .upload-image-text {
         font-size: 12px;
         height: 14px;
         line-height: 12px
     }
 
-    #add-review .review-message .form-submit {
+    .add-review .review-message .form-submit {
         text-align: center;
         min-width: 124px;
         width: auto;
@@ -1306,7 +1306,7 @@
         line-height: 14px
     }
 
-    #add-review .window-close {
+    .add-review .window-close {
         width: 14px;
         height: 14px;
         position: absolute;
@@ -1315,11 +1315,11 @@
         cursor: pointer
     }
 
-    #add-review .review-star {
+    .add-review .review-star {
         margin-right: 4px
     }
 
-    #success-window {
+    .success-window {
         width: 623px;
         position: fixed;
         top: 50%;
@@ -1329,12 +1329,12 @@
         font-size: 24px
     }
 
-    #vstar-window-review #reviews-head .mix-review-sort .head-sort {
+    .vstar-window-review .reviews-head .mix-review-sort .head-sort {
         right: 40px;
         bottom: 22px
     }
 
-    #vstar-window-review .window-close {
+    .vstar-window-review .window-close {
         right: 0px
     }
 }
@@ -1343,35 +1343,35 @@
     margin: 50px auto
 }
 
-#vstar-noreviews {
+.vstar-noreviews {
     margin: 0 auto
 }
 
-#vstar-noreviews .noreviews-button {
+.vstar-noreviews .noreviews-button {
     text-align: center;
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0)
 }
 
-#vstar-noreviews .noreviews-button:hover {
+.vstar-noreviews .noreviews-button:hover {
     background-color: rgba(136, 136, 136, 0.2)
 }
 
-#vstar-noreviews .noreviews-button:active {
+.vstar-noreviews .noreviews-button:active {
     background-color: rgba(136, 136, 136, 0.3)
 }
 
-#vstar-noreviews .noreviews-nostar {
+.vstar-noreviews .noreviews-nostar {
     justify-content: center;
     text-align: center
 }
 
-#vstar-noreviews .star-item {
+.vstar-noreviews .star-item {
     margin: 0;
     margin-right: 3px
 }
 
-#reviews-wrapper {
+.reviews-wrapper {
     width: 100%;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -1379,69 +1379,69 @@
     margin: 0 15px -80px 0;
 }
 
-#vstar-reviews #reviews-head {
+.vstar-reviews .reviews-head {
     width: 100%;
     position: relative;
     border-bottom: 1px solid rgba(0, 0, 0, 0.09);
     box-sizing: border-box
 }
 
-#vstar-reviews #reviews-head .head-left {
+.vstar-reviews .reviews-head .head-left {
     font-style: normal
 }
 
-#vstar-reviews #reviews-head .head-left .star {
+.vstar-reviews .reviews-head .head-left .star {
     margin-left: -5px;
     font-size: 0px;
     line-height: normal
 }
 
-#vstar-reviews #reviews-head .head-left .star .star-item {
+.vstar-reviews .reviews-head .head-left .star .star-item {
     display: inline-block;
     width: 18px !important;
     height: 18px;
     margin-left: 7px
 }
 
-#vstar-reviews #reviews-head .head-left .head-title {
+.vstar-reviews .reviews-head .head-left .head-title {
     font-weight: 600
 }
 
-#vstar-reviews #reviews-head .head-center .star-raw {
+.vstar-reviews .reviews-head .head-center .star-raw {
     line-height: 18px
 }
 
-#vstar-reviews #reviews-head .head-center .star-raw .star-count {
+.vstar-reviews .reviews-head .head-center .star-raw .star-count {
     min-width: 35px;
     display: inline-block
 }
 
-#vstar-reviews #reviews-head .head-center .star-raw .star-classify {
+.vstar-reviews .reviews-head .head-center .star-raw .star-classify {
     display: inline-block;
     margin-right: 12px
 }
 
-#vstar-reviews #reviews-head .head-center .star-raw .star-classify .number {
+.vstar-reviews .reviews-head .head-center .star-raw .star-classify .number {
     display: inline-block;
     width: 6px
 }
 
-#vstar-reviews #reviews-head .head-center .star-raw .star-range {
+.vstar-reviews .reviews-head .head-center .star-raw .star-range {
     border-radius: 2px
 }
 
-#vstar-reviews #reviews-head .head-sort {
+.vstar-reviews .reviews-head .head-sort {
     position: absolute;
     border: 1px solid;
     border-radius: 4px;
     box-sizing: border-box
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content {
+.vstar-reviews .reviews-head .head-sort .sort-content {
     position: relative
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-icon {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1450,7 +1450,7 @@
     cursor: pointer
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-popup {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-popup {
     transform-origin: 100% 0;
     animation: sort_list_show .1s linear;
     position: absolute;
@@ -1466,7 +1466,7 @@
     background-color: #fff
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-popup .sort-list {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-popup .sort-list {
     height: 100%;
     width: auto;
     text-decoration: none;
@@ -1476,14 +1476,14 @@
     position: relative
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-popup .sort-list .sort-title {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-popup .sort-list .sort-title {
     color: black;
     font-size: 16px;
     height: 21px;
     white-space: nowrap
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-popup .sort-list .sort-item {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-popup .sort-list .sort-item {
     height: 19px;
     margin: 16px 0 0 0;
     font-size: 14px;
@@ -1493,67 +1493,67 @@
     cursor: pointer
 }
 
-#vstar-reviews #reviews-head .head-sort .sort-content .sort-popup .sort-active {
+.vstar-reviews .reviews-head .head-sort .sort-content .sort-popup .sort-active {
     position: absolute;
     right: 25px;
     top: 53px
 }
 
-#vstar-reviews #reviews-head .head-power {
+.vstar-reviews .reviews-head .head-power {
     height: 20px
 }
 
-#vstar-reviews #reviews-head .head-power a {
+.vstar-reviews .reviews-head .head-power a {
     color: #888888;
     text-decoration: none
 }
 
-#vstar-reviews #reviews-head .mix-review-title {
+.vstar-reviews .reviews-head .mix-review-title {
     font-size: 20px
 }
 
-#vstar-reviews #reviews-head .mix-review-num {
+.vstar-reviews .reviews-head .mix-review-num {
     font-size: 16px
 }
 
-#vstar-reviews #reviews-head.review-head-type2 .head-left {
+.vstar-reviews .reviews-head.review-head-type2 .head-left {
     height: 36px;
     display: flex;
     align-items: center
 }
 
-#vstar-reviews #reviews-head.review-head-type2 .head-left .star {
+.vstar-reviews .reviews-head.review-head-type2 .head-left .star {
     margin-bottom: 0
 }
 
-#vstar-reviews #reviews-head.review-head-type2 .head-left .reviews-num {
+.vstar-reviews .reviews-head.review-head-type2 .head-left .reviews-num {
     font-size: 18px;
     margin-left: 10px;
     margin-bottom: 0
 }
 
-#vstar-reviews #reviews-head.review-head-type2 .product-rating {
+.vstar-reviews .reviews-head.review-head-type2 .product-rating {
     display: flex;
     width: 100%;
     align-items: center
 }
 
-#vstar-reviews .point {
+.vstar-reviews .point {
     font-size: 14px;
     line-height: 14px;
     margin-bottom: 16px
 }
 
-#vstar-reviews .bigPoint {
+.vstar-reviews .bigPoint {
     font-size: 44px;
     line-height: 36px
 }
 
-#vstar-reviews .head-center {
+.vstar-reviews .head-center {
     font-size: 12px
 }
 
-#vstar-reviews .head-button {
+.vstar-reviews .head-button {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid;
     border-radius: 2px;
@@ -1565,115 +1565,115 @@
     align-items: center
 }
 
-#vstar-reviews .head-button:hover,
-#vstar-reviews .head-sort:hover {
+.vstar-reviews .head-button:hover,
+.vstar-reviews .head-sort:hover {
     background-color: rgba(136, 136, 136, 0.2)
 }
 
-#vstar-reviews .head-button:active,
-#vstar-reviews .head-sort:active {
+.vstar-reviews .head-button:active,
+.vstar-reviews .head-sort:active {
     background-color: rgba(136, 136, 136, 0.3)
 }
 
-#vstar-reviews #reviews-body {
+.vstar-reviews .reviews-body {
     width: 100%;
     position: relative;
     margin: 0px auto 0px;
     box-sizing: border-box
 }
 
-#vstar-reviews #reviews-body .user-name {
+.vstar-reviews .reviews-body .user-name {
     font-weight: 700;
     margin-right: 12px;
     font-size: 14px;
     vertical-align: middle
 }
 
-#vstar-reviews #reviews-body .reviews-text {
+.vstar-reviews .reviews-body .reviews-text {
     font-size: 14px
 }
 
-#vstar-reviews #reviews-body .country-name {
+.vstar-reviews .reviews-body .country-name {
     font-size: 13px;
     vertical-align: middle
 }
 
-#vstar-reviews #reviews-body .country-flag {
+.vstar-reviews .reviews-body .country-flag {
     transform: scale(.8)
 }
 
-#vstar-reviews #reviews-body .user-verified {
+.vstar-reviews .reviews-body .user-verified {
     height: 14px;
     font-size: 0;
     margin: 5px 0 0 0px
 }
 
-#vstar-reviews #reviews-body .user-verified span {
+.vstar-reviews .reviews-body .user-verified span {
     font-size: 12px;
     line-height: 16px;
     vertical-align: middle;
     margin-left: 4px
 }
 
-#vstar-reviews #reviews-body .user-verified svg {
+.vstar-reviews .reviews-body .user-verified svg {
     vertical-align: middle
 }
 
-#vstar-reviews #reviews-body .reviews-text {
+.vstar-reviews .reviews-body .reviews-text {
     font-size: 14px
 }
 
-#vstar-reviews #reviews-body .country-name {
+.vstar-reviews .reviews-body .country-name {
     font-size: 13px;
     vertical-align: middle
 }
 
-#vstar-reviews #reviews-body .country-flag {
+.vstar-reviews .reviews-body .country-flag {
     transform: scale(.8)
 }
 
-#vstar-reviews #reviews-body .img-item {
+.vstar-reviews .reviews-body .img-item {
     cursor: pointer
 }
 
-#vstar-reviews #reviews-body .reviews-num,
-#vstar-reviews #reviews-body .reviews-date,
-#vstar-reviews #reviews-body .star-num,
-#vstar-reviews #reviews-body .country-name {
+.vstar-reviews .reviews-body .reviews-num,
+.vstar-reviews .reviews-body .reviews-date,
+.vstar-reviews .reviews-body .star-num,
+.vstar-reviews .reviews-body .country-name {
     opacity: .6
 }
 
-#vstar-reviews .body-item:last-child {
+.vstar-reviews .body-item:last-child {
     border: none
 }
 
-#vstar-reviews .list-review-body-item {
+.vstar-reviews .list-review-body-item {
     box-sizing: border-box;
     border-bottom: 1px solid rgba(0, 0, 0, 0.09)
 }
 
-#vstar-reviews .list-review-body-item .reviews-date {
+.vstar-reviews .list-review-body-item .reviews-date {
     top: 30px;
     font-size: 12px;
     position: absolute
 }
 
-#vstar-reviews .list-review-body-item .author-name {
+.vstar-reviews .list-review-body-item .author-name {
     font-size: 14px
 }
 
-#vstar-reviews .list-review-body-item .star,
-#vstar-reviews .list-review-body-item .list-review-body-item-head {
+.vstar-reviews .list-review-body-item .star,
+.vstar-reviews .list-review-body-item .list-review-body-item-head {
     margin-bottom: 16px
 }
 
-#vstar-reviews .list-review-body-item .img-list {
+.vstar-reviews .list-review-body-item .img-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 16px
 }
 
-#vstar-reviews .list-review-body-item .img-list .img-item {
+.vstar-reviews .list-review-body-item .img-list .img-item {
     background: black;
     display: flex;
     align-items: center;
@@ -1681,7 +1681,7 @@
     overflow: hidden
 }
 
-#vstar-reviews .grid-review-body-item {
+.vstar-reviews .grid-review-body-item {
     position: absolute;
     display: inline-block;
     vertical-align: top;
@@ -1689,43 +1689,43 @@
     border-radius: 8px
 }
 
-#vstar-reviews .grid-review-body-item .img-item img {
+.vstar-reviews .grid-review-body-item .img-item img {
     border-radius: 8px 8px 0 0
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-head {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-head {
     margin-top: 16px;
     padding: 0 16px;
     position: relative
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message {
     margin: 16px 0
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message .user-name {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message .user-name {
     padding: 0;
     vertical-align: middle
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message svg {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-head .user-message svg {
     vertical-align: middle
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-head .reviews-date {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-head .reviews-date {
     line-height: 18px;
     font-size: 12px
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-body {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-body {
     padding: 0 16px
 }
 
-#vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
+.vstar-reviews .grid-review-body-item .grid-review-body-item-body .reviews-text {
     word-wrap: break-word
 }
 
-#vstar-reviews .more-review-btn {
+.vstar-reviews .more-review-btn {
     width: 92px;
     height: 40px;
     margin: 0 auto;
@@ -1737,19 +1737,19 @@
     cursor: pointer
 }
 
-#vstar-reviews .more-review-btn:hover {
+.vstar-reviews .more-review-btn:hover {
     background-color: rgba(136, 136, 136, 0.2)
 }
 
-#vstar-reviews .more-review-btn:active {
+.vstar-reviews .more-review-btn:active {
     background-color: rgba(136, 136, 136, 0.3)
 }
 
-#vstar-reviews .review-star-item {
+.vstar-reviews .review-star-item {
     margin-left: 2px
 }
 
-#vstar-reviews #reviews-footer {
+.vstar-reviews .reviews-footer {
     height: 80px;
     margin-top: 48px;
     width: 100%;
@@ -1757,14 +1757,14 @@
     border-radius: 4px
 }
 
-#vstar-reviews #reviews-footer .loader {
+.vstar-reviews .reviews-footer .loader {
     margin: 0 auto;
     width: 40px;
     height: 40px;
     border-bottom-color: black
 }
 
-#vstar-reviews .page-control {
+.vstar-reviews .page-control {
     display: flex;
     width: 100%;
     padding: 0;
@@ -1774,7 +1774,7 @@
     justify-content: center
 }
 
-#vstar-reviews .page-control-item {
+.vstar-reviews .page-control-item {
     font-size: 14px;
     display: inline-block;
     width: 32px;
@@ -1790,7 +1790,7 @@
     cursor: pointer
 }
 
-#vstar-reviews .page-control-button {
+.vstar-reviews .page-control-button {
     width: 32px;
     height: 32px;
     line-height: 32px;
@@ -1805,56 +1805,56 @@
     background: rgba(0, 0, 0, 0)
 }
 
-#vstar-reviews #reviews-footer .active {
+.vstar-reviews .reviews-footer .active {
     font-weight: 600;
     font-size: 16px;
     opacity: 1
 }
 
-#vstar-reviews .display-text {
+.vstar-reviews .display-text {
     line-height: 12px;
     cursor: pointer;
     opacity: .6
 }
 
-#add-review {
+.add-review {
     z-index: 999999999;
     box-sizing: border-box;
     color: black
 }
 
-#add-review .window-product .product-image {
+.add-review .window-product .product-image {
     border: 1px solid #ddd;
     border-radius: 2px
 }
 
-#add-review .window-product .product-right {
+.add-review .window-product .product-right {
     word-break: break-all
 }
 
-#add-review .small-input,
-#add-review .big-input {
+.add-review .small-input,
+.add-review .big-input {
     border-radius: 4px
 }
 
-#add-review .small-input:focus,
-#add-review .big-input:focus {
+.add-review .small-input:focus,
+.add-review .big-input:focus {
     outline: none;
     box-shadow: none
 }
 
-#add-review .form-image-item {
+.add-review .form-image-item {
     display: flex;
     justify-content: center;
     align-items: center
 }
 
-#add-review .form-image-item .loader {
+.add-review .form-image-item .loader {
     margin-left: 0;
     border-bottom-color: black
 }
 
-#add-review .upload-image-area {
+.add-review .upload-image-area {
     text-align: center;
     position: relative;
     display: flex;
@@ -1865,15 +1865,15 @@
     border-radius: 4px
 }
 
-#add-review .upload-image-area i {
+.add-review .upload-image-area i {
     margin-bottom: 15px
 }
 
-#add-review .upload-image-area i::before {
+.add-review .upload-image-area i::before {
     font-size: 20px
 }
 
-#add-review .upload-image-area .images-num {
+.add-review .upload-image-area .images-num {
     font-size: 10px;
     position: absolute;
     bottom: -20px;
@@ -1881,48 +1881,48 @@
     color: #888
 }
 
-#add-review .upload-image-area .upload-image-text {
+.add-review .upload-image-area .upload-image-text {
     color: #727272
 }
 
-#add-review .upload-image-area .upload-input {
+.add-review .upload-image-area .upload-input {
     opacity: 0
 }
 
-#add-review div:empty {
+.add-review div:empty {
     display: block
 }
 
-#add-review .form-submit {
+.add-review .form-submit {
     display: flex;
     align-items: center;
     justify-content: center
 }
 
-#add-review .form-submit:hover {
+.add-review .form-submit:hover {
     opacity: .8
 }
 
-#add-review .form-submit:active {
+.add-review .form-submit:active {
     opacity: .25
 }
 
-#add-review .input-tip {
+.add-review .input-tip {
     font-size: 14px;
     line-height: 12px;
     color: #E45454
 }
 
-#add-review .addreview-form-tip-text svg {
+.add-review .addreview-form-tip-text svg {
     vertical-align: middle
 }
 
-#add-review .addreview-form-tip-text span {
+.add-review .addreview-form-tip-text span {
     vertical-align: middle;
     margin-left: 4px
 }
 
-#add-review .addreview-form-tip-text {
+.add-review .addreview-form-tip-text {
     font-size: 14px;
     line-height: 12px;
     color: #E45454;
@@ -1930,12 +1930,12 @@
     display: inline-block
 }
 
-#add-review .addreview-form-tip {
+.add-review .addreview-form-tip {
     position: relative;
     margin-top: 5px
 }
 
-#add-review .text-num {
+.add-review .text-num {
     position: absolute;
     right: 0;
     top: 8px;
@@ -1944,36 +1944,36 @@
     color: #999999
 }
 
-#add-review .window-product .review-star {
+.add-review .window-product .review-star {
     font-size: 0;
     cursor: pointer;
     display: flex
 }
 
-#add-review .window-product .review-star .star-item {
+.add-review .window-product .review-star .star-item {
     margin-right: 5px
 }
 
-#success-window {
+.success-window {
     color: black;
     z-index: 9999
 }
 
-#success-window .window-title {
+.success-window .window-title {
     margin-top: 50px;
     text-align: center;
     font-weight: 700;
     margin-bottom: 42px
 }
 
-#success-window .window-image {
+.success-window .window-image {
     width: 75px;
     height: 66px;
     background-size: 100% auto;
     margin: 32px auto 22px
 }
 
-#success-window .window-content {
+.success-window .window-content {
     text-align: center;
     color: #666666;
     margin: 0 auto;
@@ -1982,11 +1982,11 @@
     margin-bottom: 13px
 }
 
-#success-window .window-button {
+.success-window .window-button {
     text-align: center
 }
 
-#success-window .window-button button {
+.success-window .window-button button {
     width: 185px;
     height: 44px;
     background-color: #171717;
@@ -1999,15 +1999,15 @@
     cursor: pointer
 }
 
-#success-window .window-button button:hover {
+.success-window .window-button button:hover {
     background-color: #505050
 }
 
-#success-window .window-button button:active {
+.success-window .window-button button:active {
     background-color: #d2d2d2
 }
 
-#success-window .window-close {
+.success-window .window-close {
     font-size: 0;
     width: 14px;
     height: 14px;
@@ -2017,15 +2017,15 @@
     cursor: pointer
 }
 
-#success-window .window-close i::before {
+.success-window .window-close i::before {
     font-size: 14px
 }
 
-#success-window div:empty {
+.success-window div:empty {
     display: block
 }
 
-#vstar-tab {
+.vstar-tab {
     display: flex;
     position: fixed;
     right: 0;
@@ -2044,7 +2044,7 @@
     z-index: 11000
 }
 
-#vstar-window-review {
+.vstar-window-review {
     max-width: 1030px;
     width: 100%;
     height: 100vh;
@@ -2059,33 +2059,33 @@
     overflow-x: hidden
 }
 
-#vstar-window-review #reviews-wrapper {
+.vstar-window-review .reviews-wrapper {
     padding: 0
 }
 
-#vstar-window-review #vstar-reviews {
+.vstar-window-review .vstar-reviews {
     margin: 0;
     width: 100%;
     min-height: 100vh
 }
 
-#vstar-window-review #vstar-reviews #reviews-head {
+.vstar-window-review .vstar-reviews .reviews-head {
     flex-direction: row;
     align-items: center
 }
 
-#vstar-window-review #reviews-head,
-#vstar-window-review #reviews-head.review-head-type2 {
+.vstar-window-review .reviews-head,
+.vstar-window-review .reviews-head.review-head-type2 {
     padding: 26px 0 26px;
     font-size: 16px
 }
 
-#vstar-window-review #reviews-head .mix-review-num {
+.vstar-window-review .reviews-head .mix-review-num {
     margin-left: 6px;
     font-size: 14px
 }
 
-#vstar-window-review .window-close {
+.vstar-window-review .window-close {
     position: absolute;
     top: 30px;
     cursor: pointer
@@ -2099,7 +2099,7 @@
     transform: translateY(-50%)
 }
 
-#icon-list-wrapper {
+.icon-list-wrapper {
     display: inline-block
 }
 
